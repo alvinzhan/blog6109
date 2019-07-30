@@ -43,7 +43,7 @@ def posts_detail(request, slug=None):
     previous_page = request.META.get('HTTP_REFERER', '/')
 
     if instance.draft or instance.publish > timezone.now():
-        if not request.user.is_staff or not request.user.is_superuser:
+        if not request.user.is_authenticated:
             raise Http404
 
     initial_data = {
@@ -53,7 +53,7 @@ def posts_detail(request, slug=None):
     }
 
     form = CommentForm(request.POST or None, initial=initial_data)
-    if form.is_valid()and request.user.is_authenticated():
+    if form.is_valid() and request.user.is_authenticated():
         c_type = form.cleaned_data.get('content_type')
         content_type = ContentType.objects.get(model=c_type)
         obj_id = form.cleaned_data.get('object_id')
@@ -92,7 +92,7 @@ def posts_detail(request, slug=None):
     return render(request, 'post_detail.html', content)
 
 def posts_update(request, slug=None):
-    if not request.user.is_staff or not request.user.is_superuser:
+    if not request.user.is_authenticated:
         raise Http404
 
     instance = get_object_or_404(Post, slug=slug)
@@ -115,7 +115,7 @@ def posts_update(request, slug=None):
 def posts_delete(request, slug=None):
     category = slug.split('_')[0]
 
-    if not request.user.is_staff or not request.user.is_superuser:
+    if not request.user.is_authenticated:
         raise Http404
 
     instance = get_object_or_404(Post, slug=slug)
@@ -129,9 +129,13 @@ def posts_list(request, category=None):
         'tech': '技術分享',
         'interview': '面試心得',
         'intern': '暑期實習',
+        'av': 'a片',
     }
 
-    if request.user.is_staff or request.user.is_superuser:
+    if not request.user.is_authenticated and category == 'av':
+        raise Http404
+
+    if request.user.is_authenticated:
         queryset_list = Post.objects.query(True, category)
     else:
         queryset_list = Post.objects.query(False, category)
@@ -146,7 +150,6 @@ def posts_list(request, category=None):
         ).distinct()
 
     paginator = Paginator(queryset_list, 5)  # Show 5 contacts per page
-
     page_request_var = 'page'
     page = request.GET.get(page_request_var)
     queryset = paginator.get_page(page)
@@ -154,6 +157,7 @@ def posts_list(request, category=None):
     content = {
         'object_list': queryset,
         'title': title[category],
+        'category': category,
         'page_request_var': page_request_var,
         'today': timezone.now().date(),
 

@@ -15,6 +15,7 @@ from comments.models import Comment
 
 class PostManager(models.Manager):
     def query(self, *args, **kwargs):
+        # staff
         if args[0]:
             return super(PostManager, self).filter(
                 Q(draft=True) |
@@ -22,6 +23,7 @@ class PostManager(models.Manager):
 
             )
         else:
+        # guest
             return super(PostManager, self).filter(
                 Q(draft=False) &
                 Q(publish__lte=timezone.now()) &
