@@ -1,80 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f99fef3c-09de-47e3-9e13-03e20ecf9b22" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/blog6109.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/blog6109.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog6109/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog6109/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog6109/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog6109/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog6109/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog6109/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog6109/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog6109/wsgi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comments/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/comments/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comments/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/comments/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comments/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/comments/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comments/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/comments/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comments/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/comments/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comments/migrations/0002_auto_20190524_1443.py" beforeDir="false" afterPath="$PROJECT_DIR$/comments/migrations/0002_auto_20190524_1443.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comments/migrations/0003_auto_20190524_1742.py" beforeDir="false" afterPath="$PROJECT_DIR$/comments/migrations/0003_auto_20190524_1742.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comments/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/comments/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comments/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/comments/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comments/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/comments/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comments/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/comments/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/comments/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/comments/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/alvin_zhan/加油.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/media/alvin_zhan/加油.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/form.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/form.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/migrations/0002_auto_20190505_1350.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/migrations/0002_auto_20190505_1350.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/migrations/0003_auto_20190505_1404.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/migrations/0003_auto_20190505_1404.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/migrations/0004_post_user.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/migrations/0004_post_user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/migrations/0005_auto_20190509_1721.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/migrations/0005_auto_20190509_1721.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/migrations/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/migrations/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/templatetags/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/templatetags/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/templatetags/urlify.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/templatetags/urlify.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/posts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/posts/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/base.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/home_css.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/home_css.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/images/banner.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/images/banner.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/images/overlay.png" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/images/overlay.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/banner.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/banner.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/pic01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/pic01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/pic02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/pic02.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/pic03.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/pic03.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/images/pic04.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/images/pic04.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/skel.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/skel.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/static/js/util.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/comment_thread.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/comment_thread.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/confirm_delete.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/confirm_delete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/message_display.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/message_display.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/post_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/post_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/post_form.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/post_form.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/post_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/post_list.html" afterDir="false" />
-    </list>
+    <list default="true" id="f99fef3c-09de-47e3-9e13-03e20ecf9b22" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +101,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554914323409</updated>
-      <workItem from="1568893705131" duration="2158000" />
+      <workItem from="1568893705131" duration="2455000" />
     </task>
     <servers />
   </component>
