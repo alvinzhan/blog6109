@@ -3,6 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta name="google-site-verification" content="QjfctDPCkWc_7lxiOGSHVI_9ztPTMoUEusHvYyGJxB8" />
         <meta charset="UTF-8">
         <title>
             {% block title %}
@@ -33,9 +34,9 @@
             {% block navigation %}
                 <ol class="breadcrumb">
                     <li><a href="/">首頁</a></li>
-                    {% block post_list_link %}
+                    {% block navigation_bar %}
                         <li><a href="{% url 'posts:create' %}">建立貼文</a></li>
-                    {% endblock post_list_link %}
+                    {% endblock navigation_bar %}
 
                     {% if not request.user.is_authenticated %}
                         <li class="pull-right"><a href="{% url 'register' %}">註冊</a></li>
@@ -69,12 +70,16 @@
                     $(this).html(markedContent)
                 })
 
-                // modify the size of the image in post_detail
                 $(".post-detail-item").each(function() {
                     var content = $(this).text()
                     var markedContent = marked(content)
                     $(this).html(markedContent)
                 })
+
+                $(".post-detail-item img").each(function() {
+                    $(this).addClass("img-responsive")
+                })
+
                 $(".post-detail-item-list img").each(function() {
                     $(this).addClass("img-responsive")
                 })
