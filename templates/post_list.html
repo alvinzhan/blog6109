@@ -34,21 +34,21 @@
                         {% if obj.image %}
                             <img src="{{ obj.image.url }}" class="img-responsive">
                         {% endif %}
-                        <div class="caption post-detail-item-list">
-                            {% if obj.draft %}
-                                <h3><span style="color:red">草稿</span></h3>
-                            {% endif %}
-                            {% if obj.publish > today %}
-                                <h3><span style="color:purple">未來</span></h3>
-                            {% endif %}
-                            <h3><a href="{{ obj.get_absolute_url }}">{{ obj.title }}</a> <small>{{ obj.publish }}</small></h3>
-                            {% if obj.user.get_full_name %}
-                                <p>作者: {{ obj.user.get_full_name }}</p>
-                            {% else %}
-                                <p>作者: {{ obj.user }}</p>
-                            {% endif %}
-                                {{ obj.get_markdown | truncatechars_html:30 }}
-                            <p><a href="{{ obj.get_absolute_url }}" class="btn btn-primary" role="button">View</a></p>
+                        <div class="caption post-detail-item">
+                        {% if obj.draft %}
+                            <h3><span style="color:red">草稿</span></h3>
+                        {% endif %}
+                        {% if obj.publish > today %}
+                            <h3><span style="color:purple">未來</span></h3>
+                        {% endif %}
+                        <h3><a href="{{ obj.get_absolute_url }}">{{ obj.title }}</a> <small>{{ obj.publish }}</small></h3>
+                        {% if obj.user.get_full_name %}
+                            <p>作者: {{ obj.user.get_full_name }}</p>
+                        {% else %}
+                            <p>作者: {{ obj.user }}</p>
+                        {% endif %}
+                            {{ obj.get_markdown | truncatechars_html:30 }}
+                        <p><a href="{{ obj.get_absolute_url }}" class="btn btn-primary" role="button">View</a></p>
                         </div>
                     </div>
                 </div>
