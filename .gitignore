@@ -1,0 +1,8 @@
+# my virtual environment
+/venv/
+
+# all the invisible files except .gitignore
+.DS_Store
+.idea
+.git
+!*.gitignore
