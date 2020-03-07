@@ -129,7 +129,6 @@ def posts_list(request, category=None):
         'tech': '技術分享',
         'interview': '面試心得',
         'intern': '暑期實習',
-        'av': 'a片(如有侵權，請來信告知)',
     }
 
     if not request.user.is_authenticated and category == 'av':
